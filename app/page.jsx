@@ -4,6 +4,11 @@ export default function Home() {
   return (
     <>
       <h1>Farm Management Website</h1>
+      <div className="flex space-x-5">
+        <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/dashboard">Dashboard</Link>
+        <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/login">Login</Link>
+        <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/register">Register</Link>
+      </div>
       <div className="container mx-auto p-4">
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse border border-black">
