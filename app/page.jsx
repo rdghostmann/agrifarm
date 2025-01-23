@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <h1>Farm Management Website</h1>
-      <div className="flex space-x-5">
+      <div className="flex space-x-5 p-4">
         <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/dashboard">Dashboard</Link>
         <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/login">Login</Link>
         <Link className="border bg-slate-700 text-white rounded-xl p-3" href="/register">Register</Link>
